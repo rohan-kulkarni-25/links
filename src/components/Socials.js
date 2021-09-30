@@ -10,10 +10,10 @@ import instagram from '../socialLogos/instagram.png'
 export default function Socials() {
   return (
     <div className="linkboxSocial" aria-checked="true">
-      <a href="/" alt="linkedIn Logo" ><img role="img" src={linkedin} alt="" /></a>
-      <a href="/" alt="Twitter Logo"><img role="img" src={twitter} alt="" /></a>
-      <a href="/" alt="Github Logo"><img role="img" src={github} alt="" /></a>
-      <a href="/" alt="instagram Logo"><img role="img" src={instagram} alt="" /></a>
+      <a href="https://www.linkedin.com/in/rohan-k-2502/" rel="noreferrer" target="_blank"  ><img src={linkedin} alt="linkedIn Logo" /></a>
+      <a href="https://twitter.com/rohan_2502" rel="noreferrer" target="_blank" ><img src={twitter} alt="Twitter Logo" /></a>
+      <a href="https://github.com/rohan-kulkarni-25" rel="noreferrer" target="_blank" ><img src={github} alt="Github Logo" /></a>
+      <a href="https://www.instagram.com/rohan_k_2502/" rel="noreferrer" target="_blank" ><img src={instagram} alt="instagram Logo" /></a>
     </div>
   )
 }
