@@ -15,7 +15,7 @@ function App() {
       ></Links>
       <Links
         name="SHADE-GENERATOR"
-        link="http://stopwatch-eight.vercel.app/"
+        link="https://shadegenerator.vercel.app"
       ></Links>{" "}
     </div>
   );
