@@ -10,13 +10,18 @@ function App() {
       <Intro></Intro>
       <Socials></Socials>
       <Links
+        name="WIND-MILL"
+        link="https://windmill-beryl.vercel.app/"
+      ></Links>
+      <Links
         name="STOP-WATCH"
         link="http://stopwatch-eight.vercel.app/"
       ></Links>
       <Links
         name="SHADE-GENERATOR"
         link="https://shadegenerator.vercel.app"
-      ></Links>{" "}
+      ></Links>
+
     </div>
   );
 }
