@@ -21,6 +21,10 @@ function App() {
         name="SHADE-GENERATOR"
         link="https://shadegenerator.vercel.app"
       ></Links>
+          <Links
+        name="TIC-TAC-TOE"
+        link="https://tic-tac-toe-pied.vercel.app"
+      ></Links>
 
     </div>
   );
