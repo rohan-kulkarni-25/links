@@ -9,6 +9,10 @@ function App() {
     <div className="links">
       <Intro></Intro>
       <Socials></Socials>
+              <Links
+        name="GOOGLE SIGN-IN"
+        link="https://signinwithgoogleapp.vercel.app/"
+      ></Links>
       <Links
         name="WIND-MILL"
         link="https://windmill-beryl.vercel.app/"
