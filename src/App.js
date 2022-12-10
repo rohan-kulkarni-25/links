@@ -9,27 +9,23 @@ function App() {
     <div className="links">
       <Intro></Intro>
       <Socials></Socials>
-              <Links
-        name="GOOGLE SIGN-IN"
-        link="https://signinwithgoogleapp.vercel.app/"
+      <Links
+        name="Register for Hack The League"
+        link="https://hacktheleague.com/"
       ></Links>
       <Links
-        name="WIND-MILL"
-        link="https://windmill-beryl.vercel.app/"
-      ></Links>
-      <Links
-        name="STOP-WATCH"
+        name="Postman Students Expert Certification"
         link="http://stopwatch-eight.vercel.app/"
       ></Links>
       <Links
-        name="SHADE-GENERATOR"
-        link="https://shadegenerator.vercel.app"
+        name="Introduction to API by Postman workshop"
+        link="https://lu.ma/3zydlnlo"
       ></Links>
-          <Links
-        name="TIC-TAC-TOE"
-        link="https://tic-tac-toe-pied.vercel.app"
+      <Links name="We Build Pune" link="https://webuildpune.co"></Links>
+      <Links
+        name="We Build Pune WhatsApp Group"
+        link="https://chat.whatsapp.com/Ea8U7fKUhenCAsdcE4pvwb"
       ></Links>
-
     </div>
   );
 }

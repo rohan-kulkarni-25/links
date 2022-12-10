@@ -7,9 +7,9 @@ export default function Links(props) {
 
   return (
     <div className="linkbox">
-      <p>{name}</p>
-      <a href={link} rel="noreferrer" target="_blank">View</a>
+      <a href={link} rel="noreferrer" target="_blank">
+        {name}
+      </a>
     </div>
-
-  )
+  );
 }
