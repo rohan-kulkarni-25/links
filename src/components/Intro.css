@@ -1,7 +1,6 @@
-.introbox{
+.introbox {
   /* border: 1px solid black; */
   /* color: white; */
-  background-color: white;
   width: 90%;
   max-width: 40rem;
   border-radius: 12px;
@@ -13,23 +12,35 @@
   /* box-shadow: 4px 8px 8px rgba(128, 128, 128, 0.5); */
 }
 
-.logo{
-  margin-bottom: 2rem;
-  height: 10rem;
+.logo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 8rem;
+  width: 8rem;
   border-radius: 50%;
 }
-.name{
+.name {
   font-size: 1.8rem;
   font-weight: 600;
   color: black;
+  font-family: "Inter", sans-serif;
 }
 
-.introdesc{
+.introdesc {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  text-align: start;
   margin-top: 1rem;
   padding: 0.5rem;
-  line-height: 1.4rem;
-  font-size: 1rem;
-  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
   color: black;
+  font-family: "Inter", sans-serif;
 }
 
+.banners {
+  /* border-radius: 2ch; */
+  width: 100vw;
+  /* height: 8rem; */
+}
