@@ -11,8 +11,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
-  padding: 1rem;
+  padding: 0rem 0rem;
 }
 
 .linkbox{

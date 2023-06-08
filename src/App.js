@@ -9,7 +9,7 @@ function App() {
     <div className="links">
       <Intro></Intro>
       <Socials></Socials>
-      <Links
+      {/* <Links
         name="Register for Hack The League"
         link="https://hacktheleague.com/"
       ></Links>
@@ -25,7 +25,7 @@ function App() {
       <Links
         name="We Build Pune WhatsApp Group"
         link="https://chat.whatsapp.com/Ea8U7fKUhenCAsdcE4pvwb"
-      ></Links>
+      ></Links> */}
     </div>
   );
 }

@@ -1,26 +1,28 @@
-import React from 'react'
-import './Intro.css'
-import img from '../socialLogos/myimg.png'
+import React, { useEffect, useRef } from "react";
+import "./Intro.css";
+import banner from "../assets/banner.jpeg";
+import profile from "../assets/profile.jpg";
 
 export default function Intro() {
+
   return (
     <div className="introbox">
-      <img
-        className="logo"
-        role="img"
-        src="https://i.ibb.co/nqpw11s/IMG-8855-removebg-preview-2.png"
-        alt=""
-      />
+      <img src={banner} className="banners" />
+      <img className="logo" role="img" src={profile} />
       <p className="name" role="article">
         Rohan Kulkarni
       </p>
       <p className="introdesc" role="article">
-        Founder <a href="https://webuildpune.co">@webuildpune community </a>
-        <a href="https://twitter.com/HackTheLeague">
-          <br></br>Co-organiser @HackTheLeague
-        </a>
-        <br></br> Full Stack Web & Mobile Developer <br></br>Students Leader
-        @postman
+        <span>🌻 React Developer Intern @Cloudware Solutions LLC</span>
+        <span>
+          🌻 A Developer who can build web apps and cross-platform mobile apps
+        </span>
+        <span>🌻 Organiser @hacktheleague @hackatsits</span>
+        <span>🌻 Building @webuildpune</span>
+        <span>🌻 Open Source enthusiast</span>
+        <span style={{ fontSize: "0.8rem", wordSpacing: "0.2rem" }}>
+          Part of multiple communities: FOSSPUNE, MUGPUNE and many more.
+        </span>
       </p>
     </div>
   );
